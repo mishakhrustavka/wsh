@@ -16,7 +16,8 @@ if (WScript.CreateObject("Scripting.FileSystemObject").FileExists(word))
 {
 	var WDDoc=WD.Documents.Open(word);
 	
-	WScript.Echo("Enter text or 'Quit' to Quit");
+	WScript.Echo("Enter text or 'Quit' to Quit");////////////second change
+	
 	var i=0;
 	while(text!="Quit")
 	{
